@@ -3,5 +3,13 @@
     <pages>
         <page name='InterviewQuestionExamples'/>
         <page name='JustAPlaceToTest'/>
+        <page name='Collections'/>
+        <page name='Control Flow'/>
+        <page name='Enumerations'/>
+        <page name='OptionalChaining'/>
+        <page name='Optionals'/>
+        <page name='PatternMatching'/>
+        <page name='Error Handling'/>
+        <page name='Functions'/>
     </pages>
 </playground>
