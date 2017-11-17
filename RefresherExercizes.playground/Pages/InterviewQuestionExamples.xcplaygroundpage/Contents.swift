@@ -24,8 +24,6 @@ shoppingCart.count
 -For numbers which are multiples of both 3 and 5, print "FizzBuzz" instead of the number.
 */
 
-var multiples: [Int] = []
-
 for number in 1...100 {
     if number % 3 == 0 {
         print("fizz")
@@ -37,15 +35,6 @@ for number in 1...100 {
         print("\(number) times celebrating sucess!")
     }
 }
-
-var x = 0
-
-while x <= 20 {
-    print(x)
-    x += 1
-}
-
-
 
 
 
