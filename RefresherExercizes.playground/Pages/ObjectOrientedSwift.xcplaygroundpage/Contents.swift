@@ -1,3 +1,9 @@
+/// Below are the sources for the notes I am taking. They are basically exact quotes.
+/// SPR = Swift Pocket Reference
+/// THV = Treehouse Videos
+/// PFS = Programming Fundamentals with Swift
+
+
 let x1 = 0
 let y1 = 0
 
@@ -7,6 +13,15 @@ coordinate1.x
 struct Point {
     let x: Int
     let y: Int
+  
+    
+    /// SPR - Initialization is the process of setting up appropriate default values
+    /// for stored properties in a new instance of a class, struct or enum. "self"
+    /// referrs not to this struct specifically but to the instance that is created.
+    /// THV - The purpose of an initializer is to assign values to all the stored properties
+    /// durring creation. You cannot write an init method that does not assign an initial value
+    /// to a stored property. Inside the init method, if we need to refer to an instance of
+    /// the structure we use the key word "self"
     
     init(x: Int, y: Int) {
         self.x = x
